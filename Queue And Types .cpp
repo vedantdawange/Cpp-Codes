@@ -1,6 +1,8 @@
 #include<iostream>
 //#include<stdlib.h> 
 using namespace std;
+
+//Circular Queue
 class cqueue
 {
    int q[5],front,rear;
@@ -67,6 +69,7 @@ class cqueue
     }
 };
 
+//Linear Queue
 class queue
 {
   public:
@@ -126,6 +129,8 @@ class Node{
     Node *next;
 };
  
+
+//Linear Queue Using Linked List
 class Queuell{
     public:
     Node *front,*rear;
@@ -204,6 +209,7 @@ public:
   node *next;
 }*front=NULL,*rear=NULL,*n,*temp,*temp1;
 
+//Circular Queue Using Linked List
 class circularqueue
 {
 public:
@@ -273,6 +279,7 @@ void display()
 }
 };
 
+//Driver Code
 int main()
 {
 	int choice,a;
